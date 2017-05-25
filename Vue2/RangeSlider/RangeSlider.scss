@@ -1,0 +1,62 @@
+@import '@/../bower_components/cssFramework/dist/assets/scss/_variables.scss';
+
+.noUi-horizontal {
+  height: 16px;
+  margin: 30px 25px 0;
+}
+
+.noUi-target {
+  box-shadow: none;
+  border: 0;
+  border-radius: 9px;
+  background: $color-metal-light;
+}
+
+.noUi-connect {
+  background: $color-black-light;
+  border-radius: 9px;
+}
+
+.noUi-horizontal .noUi-handle {
+  top: -8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  border: 2px solid $color-black-light;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+}
+
+.noUi-tooltip {
+  top: -25px;
+  width: 50px;
+  margin-left: 1px;
+  border: 0;
+  padding: 0;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: $color-black-light;
+}
+
+.noUi-marker {
+  display: none;
+}
+
+.noUi-pips-horizontal {
+  top: -50px;
+}
+
+.noUi-value {
+  width: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
